@@ -1,0 +1,231 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio Website</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    </head>
+  <body>
+     
+      <nav class="navbar has-shadow is-white">
+          <!--logo / brand-->
+          <div class="navbar-brand">
+              <a class="navbar-item">
+                  <img src="assets/logo1.png" alt="site logo" style="max-height: 60px" class="py-2 px-0 " >
+              </a>
+              <a class="navbar-burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+             </a>
+          </div>
+          
+          <div class="navbar-menu" id="nav-links">
+              <div class="navbar-end">
+                  <a class="navbar-item">My Account</a>
+                  <a class="navbar-item">Shopping Cart (0)</a>
+              </div>
+          </div>
+      </nav>
+
+      <!-- breadcrumbs -->
+      <div class-"section pt-4 pb-0">
+          <nav class="breadcrumb has-bullet-separator">
+              <ul class="container">
+                  <li><a class="has-text-grey">Home</a></li>
+                  <li><a class="has-text-grey">Shop</a></li>
+                  <li class="is-active"><a>Categories</a></li>
+              </ul>
+          </nav>
+      </div>
+
+      <!-- product info -->
+      <section class="section">
+          <div class="container">
+              <div class="columns is-vcentered">
+                  <div class="column">
+                      <img src="assets/newcoll.PNG" alt="New Collection" class="px-7">
+                  </div>
+                  <div class="column">
+                      <img src="assets/pic1.PNG" alt="Collection pic" class="px-10">
+                  </div>
+                  <div class="column">
+                      <h2 class="is-size-2 subtitle"></h2>
+                      <p class="mb-4">The embroidered raw silk lehenga and blouse paired with an organza dupatta. Worn with statement earrings, bracelets, rings and maang tikka from the Bengal Byzantine Broadway collection, set in gold with multi-coloured gemstones and VVS-EF diamonds.</p>
+                  </div>
+                  <form>
+                      <div class="field">
+                          <div class="control mb-6">
+                              <div class="select is-dark">
+                                  <select>
+                                      <option>Customize</option>
+                                      <option>S</option>
+                                      <option>M</option>
+                                      <option>L</option>
+                                      <option>XL</option>
+                                      <option>XXL</option>
+                                  </select>
+                              </div>
+                          </div>
+                      </div>
+                     <button class="button is-dark">Add to Cart</button>
+                  </form>
+              </div>
+          </div>
+      </section>
+
+      <section>
+          <div class="container">
+              <div class="columns is-8 is-variable">
+                  <div class="column is-7-tablet">
+                      <!-- tabbed content -->
+                      <div class="tabs is-boxed">
+                          <ul>
+                              <li class="is-active"data-target="Product-Details">
+                                  <a>Product Details</a>
+                              </li>
+                              <li data-target="Know-More">
+                                    <a>Know More</a>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="px-2" id="tab-content">
+                          <div id="product-details">
+                              <h3 class="is-size-5 title">Product Details</h3>
+                              <p>Black royal Bengal tiger clutch. ₹59,500. Ready To Ship.
+                                    Sahara Gold royal Bengal tiger clutch. ₹79,500. ...
+                                    Black Royal Bengal Tiger belt. ₹24,500. ...
+                                    Black Bengal tiger belt. ₹19,800. ...
+                                    Black Bengal tiger belt. ₹29,900. ...
+                                    Black Taj minaudiere. ₹69,500. ...
+                                    Black Chowringee sling bag. ₹54,500. ...
+                                    Black bengal chand tiger wallet. ₹49,500.</p>
+                          </div>
+                          <div id="Know More" class="is-hidden">
+                              <h3 class="is-size-5 title">Know More</h3>
+                              <p>What gives his designs a twist is his unique blend of colors and fabrics. One may never think of putting 4 different shades in four different sections of a sari with different designs, but when Sabyasachi comes out with the final product, one gets compelled to believe that it is possible and achievable. Fusion of different patchwork designs on vibrant colors is his trademark.</p>
+                               
+                            </div>
+                      </div>
+                  </div>
+                  <div class="column is-5-tablet">
+                      <!-- message box-->
+                      <div class="message is-success">
+                          <div class="message-header">
+                              <p>Hope You Like it!!</p>
+                          </div>
+                          <div class="message-body">
+                              <p>Thank You, Happy Shopping</p>
+                              <div class="has-text-centered">
+                                 <button class="button mt-5" id="signup">Sign Up</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!--cards-->
+      <section class="section is-hidden-mobile">
+          <div class="container">
+              <h3 class="title has-text-centered is-size-4">Related Products</h3>
+              <div class="columns mt-5 is-8 is-variable is-centered">
+                  <div class="column is-4-tablet is-3-desktop">
+                      <div class="card">
+                          <div class="card image has-text-centered px-6">
+                              <img src="assets/img1.PNG" alt="Product">
+                          </div>
+                          <div class="card-content">
+                              <p>300k</p>
+                              <p class="title is-size-5">Handmade Swiss lace lehenga</p>
+                          </div>
+                          <footer class="card-footer">
+                              <p class="card-footer-item">
+                                  <a href="" class="has-text-grey">View</a>
+                              </p>
+                          </footer>
+                      </div>
+                   </div>
+                   <div class="column is-4-tablet is-3-desktop">
+                      <div class="card">
+                            <div class="card image has-text-centered px-6">
+                                <img src="assets/img2.PNG" alt="Product">
+                            </div>
+                            <div class="card-content">
+                                <p>155k</p>
+                                <p class="title is-size-5">Nani's Bucket</p> 
+                            </div>
+                            <footer class="card-footer">
+                                <p class="card-footer-item">
+                                    <a href="" class="has-text-grey">View</a>
+                                </p>
+                            </footer>
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop">
+                        <div class="card">
+                                <div class="card image has-text-centered px-6">
+                                    <img src="assets/img3.PNG" alt="Product">
+                                </div>
+                                <div class="card-content">
+                                    <p>265k</p>
+                                    <p class="title is-size-5">Handmade Swiss lace Saree</p>
+                                </div>
+                                <footer class="card-footer">
+                                    <p class="card-footer-item">
+                                        <a href="" class="has-text-grey">View</a>
+                                    </p>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </section>
+
+      <!--modal-->
+      <div class="modal is">
+          <div class="modal-background"></div>
+          <div modal-content class="content has-background-white py-5 px-5">
+              <h3 class="title mb-6">Sign-up</h3>
+              <form>
+                  <div class="field">
+                      <label class="label">Name</label>
+                      <div class="control">
+                          <input type="text" class="input" placeholder="Name">
+                      </div>
+                  </div>
+                  <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control">
+                            <input type="text" class="input" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                I agree to the <a href="">terms & conditions</a>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="mt-6 has-text-centered">
+                        <button class="button is-warning">Sign-up</button>
+                    </div>
+              </form>
+          </div>
+      </div>
+
+      <!--footer-->
+      <footer class="footer">
+          <div class="content has-text-centered">
+              <p>Copyright 2023 @Sabyasachi</p>
+          </div>
+      </footer>
+
+
+    <script src="index.js"></script>
+ </body>
+    
+</head>
